@@ -10,7 +10,7 @@ endif()
 find_package(ament_cmake REQUIRED)
 find_package(rclcpp REQUIRED)
 find_package(rclcpp_action REQUIRED)
-find_package(robot_planning_interfaces REQUIRED)
+find_package(rad121_monitor_interfaces REQUIRED)
 pkg_check_modules(LIBFTDI REQUIRED libftdi1)
 
 include_directories(include ${LIBFTDI_INCLUDE_DIRS})
